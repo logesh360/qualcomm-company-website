@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .error-container {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 60px;
+    }
+
+    .error-content h1 {
+      font-size: 5rem;
+      font-weight: 900;
+      margin-bottom: 1rem;
+    }
+
+    .error-content p {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .error-content .btn {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="/" class="logo">QUALCOMM</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/innovation">Innovation</a></li>
+        <li><a href="/careers">Careers</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="error-container">
+    <div class="error-content">
+      <h1>404</h1>
+      <p>Page Not Found</p>
+      <p style="font-size: 1.2rem; opacity: 0.8;">The page you're looking for doesn't exist or has been moved.</p>
+      <a href="/" class="btn btn-primary">Go Back Home</a>
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Qualcomm</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <a href="/" class="logo">QUALCOMM</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/innovation">Innovation</a></li>
+        <li><a href="/careers">Careers</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="contact-hero">
+    <div class="hero-content">
+      <h1>Get in Touch</h1>
+      <p class="hero-subtitle">We'd love to hear from you. Send us a message.</p>
+    </div>
+  </section>
+
+  <!-- Contact Container -->
+  <section class="contact-container">
+    <div class="contact-wrapper">
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        
+        <div class="contact-item">
+          <h3>📍 Headquarters</h3>
+          <p>Qualcomm Incorporated<br>
+          5775 Morehouse Drive<br>
+          San Diego, CA 92121<br>
+          United States</p>
+        </div>
+
+        <div class="contact-item">
+          <h3>📞 Phone</h3>
+          <p>+1 (858) 587-1121</p>
+        </div>
+
+        <div class="contact-item">
+          <h3>📧 Email</h3>
+          <p>info@qualcomm.com</p>
+        </div>
+
+        <div class="contact-item">
+          <h3>🌐 Social Media</h3>
+          <p>
+            <a href="#" style="color: #0066cc; text-decoration: none; margin-right: 1rem;">Twitter</a>
+            <a href="#" style="color: #0066cc; text-decoration: none; margin-right: 1rem;">LinkedIn</a>
+            <a href="#" style="color: #0066cc; text-decoration: none; margin-right: 1rem;">Facebook</a>
+            <a href="#" style="color: #0066cc; text-decoration: none;">YouTube</a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="form-container">
+        <h2>Send us a Message</h2>
+        <div id="formMessage" class="form-message"></div>
+        
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="hero" style="background: linear-gradient(135deg, #764ba2 0%, #667eea 100%); min-height: 40vh;">
+    <div class="hero-content">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Stay Updated</h2>
+      <p class="hero-subtitle">Subscribe to our newsletter for the latest news and updates</p>
+      <form id="subscribeForm" style="max-width: 500px; margin-top: 2rem; display: flex; gap: 1rem;">
+        <input type="email" placeholder="Enter your email" required style="flex: 1; padding: 12px; border: none; border-radius: 5px;">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/careers">Careers</a></li>
+          <li><a href="/innovation">Innovation</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="/products">Snapdragon</a></li>
+          <li><a href="/products">5G Solutions</a></li>
+          <li><a href="/products">IoT Platforms</a></li>
+          <li><a href="/products">AI Solutions</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="/contact">Contact Us</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Qualcomm Incorporated. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/js/script.js"></script>
+  <script src="/js/contact.js"></script>
+</body>
+</html>
